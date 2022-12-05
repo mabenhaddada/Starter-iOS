@@ -1,0 +1,6 @@
+framework module Pods_JetBrain {
+  umbrella header "Pods-JetBrain-umbrella.h"
+
+  export *
+  module * { export * }
+}
