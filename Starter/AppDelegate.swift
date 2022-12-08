@@ -6,14 +6,16 @@
 //
 
 import UIKit
+import os.log
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
-
-
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        setupServices()
+        
         return true
     }
 
@@ -31,6 +33,39 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
     }
 
-
+    // MARK: - Setup Services
+    
+    private func setupServices() {
+        // FileSystem
+        setupFileSystem()
+        
+        let persistence = setupPersistence()
+        Current.persistence = { persistence }
+    }
+    
+    private func setupFileSystem() {
+        do {
+            try AppPaths.createDirectoriesIfNeeded()
+        } catch {
+            preconditionFailure("Could not setup mandatory folders.")
+        }
+    }
+    
+    private func setupPersistence() -> Persistence {
+        os_log(
+            .debug,
+            log: log,
+            "⚙️ DB: %{public}@",
+            String(describing: URL(fileURLWithPath: AppPaths.dbWritablePath))
+        )
+        
+        do {
+            let perssitence = try Persistence(at: AppPaths.dbWritablePath)
+            return perssitence
+        } catch {
+            preconditionFailure(String(describing: error))
+        }
+    }
 }
 
+fileprivate let log = OSLog(category: "SETUP")

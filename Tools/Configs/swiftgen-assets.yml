@@ -1,0 +1,7 @@
+output_dir: ${SOURCE_ROOT}/Starter/Generated/
+xcassets:
+  - inputs:
+    - ${SOURCE_ROOT}/Starter/Resources/Assets.xcassets
+    outputs:
+      - templateName: swift5
+        output: Assets.swift

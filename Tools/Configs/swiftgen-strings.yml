@@ -1,0 +1,7 @@
+output_dir: ${SOURCE_ROOT}/Starter/Generated/
+strings:
+  - inputs:
+    - ${SOURCE_ROOT}/Starter/Resources/${DEVELOPMENT_LANGUAGE}.lproj/Localizable.strings
+    outputs:
+      - templateName: structured-swift5
+        output: L10n.swift

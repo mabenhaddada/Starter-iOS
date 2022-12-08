@@ -1,0 +1,10 @@
+output_dir: ${SOURCE_ROOT}/Starter/Generated/
+ib:
+  inputs: ${SOURCE_ROOT}/Starter/Scenes
+  filter: .+\.storyboard$
+  outputs:
+  - templateName: scenes-swift5
+    output: Scenes.swift
+    params:
+        enumName: Scenes
+        ignoreTargetModule: true
