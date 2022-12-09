@@ -130,3 +130,9 @@ output
 
 #==========================================================
 
+# SwiftGen generated code
+Starter/Generated/Assets.swift
+Starter/Generated/L10n.swift
+Starter/Generated/Scenes.swift
+Starter/Generated/Assets.xcassets
+Starter/Generated/**/Localizable.strings
