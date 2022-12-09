@@ -1,7 +1,13 @@
 PODS:
+  - Alamofire (5.6.4)
   - GRDB.swift (6.5.0):
     - GRDB.swift/standard (= 6.5.0)
   - GRDB.swift/standard (6.5.0)
+  - Reusable (4.1.2):
+    - Reusable/Storyboard (= 4.1.2)
+    - Reusable/View (= 4.1.2)
+  - Reusable/Storyboard (4.1.2)
+  - Reusable/View (4.1.2)
   - RxCocoa (6.5.0):
     - RxRelay (= 6.5.0)
     - RxSwift (= 6.5.0)
@@ -18,7 +24,9 @@ PODS:
   - SwiftLint (0.50.1)
 
 DEPENDENCIES:
+  - Alamofire
   - GRDB.swift
+  - Reusable
   - RxCocoa
   - RxGRDB
   - RxSwift
@@ -27,7 +35,9 @@ DEPENDENCIES:
 
 SPEC REPOS:
   trunk:
+    - Alamofire
     - GRDB.swift
+    - Reusable
     - RxCocoa
     - RxGRDB
     - RxRelay
@@ -36,7 +46,9 @@ SPEC REPOS:
     - SwiftLint
 
 SPEC CHECKSUMS:
+  Alamofire: 4e95d97098eacb88856099c4fc79b526a299e48c
   GRDB.swift: 390578b9b9c42ebcc03d2b94da520fb46930d6ea
+  Reusable: 6bae6a5e8aa793c9c441db0213c863a64bce9136
   RxCocoa: 94f817b71c07517321eb4f9ad299112ca8af743b
   RxGRDB: aa1fb609094c74d598fa65e2c6c376405cf431c4
   RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
@@ -44,6 +56,6 @@ SPEC CHECKSUMS:
   SwiftGen: 1366a7f71aeef49954ca5a63ba4bef6b0f24138c
   SwiftLint: 6b0cf1f4d619808dbc16e4fab064ce6fc79f090b
 
-PODFILE CHECKSUM: 0fa09484e360bef166fbcf409f7f40b6ac7ff7c1
+PODFILE CHECKSUM: b3bb98f3dbe323ff5f333cb37ff3519e22262684
 
 COCOAPODS: 1.11.3

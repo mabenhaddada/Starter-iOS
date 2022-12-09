@@ -2,6 +2,42 @@
   Localizable.strings
   Starter
 
-  Created by Mohamed Amine BEN HADDADA on 08/12/2022.
+  Created by Mohamed Amine BEN HADDADA on 07/12/2022.
   
 */
+
+/* comment */
+"Button.Continue" = "Continue";
+
+/* comment */
+"Button.Ok" = "Ok";
+
+/* comment */
+"Button.Retry" = "Retry";
+
+/* comment */
+"Button.Cancel" = "Cancel";
+
+/* comment */
+"RepoListViewController.Title" = "Repositories List";
+
+/* comment */
+"RepoListViewController.RepoTableViewCell.FullName" = "Name: %@";
+
+/* comment */
+"RepoListViewController.RepoTableViewCell.Forks" = "Forks: %i";
+
+/* comment */
+"RepoListViewController.RepoTableViewCell.OpenIssues" = "Open Issues: %i";
+
+/* comment */
+"RepoListViewController.RepoTableViewCell.Watchers" = "Watchers: %i";
+
+/* comment */
+"RepoListViewController.PlaceholderTableViewCell.Label" = "No Repositories found";
+
+/* comment */
+"RepoDetailViewController.FullName" = "Name: %@";
+
+/* comment */
+"RepoDetailViewController.Description" = "Desription: %@";

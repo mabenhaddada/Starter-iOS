@@ -5,3 +5,40 @@
   Created by Mohamed Amine BEN HADDADA on 08/12/2022.
   
 */
+
+/* comment */
+"Button.Continue" = "Continuer";
+
+/* comment */
+"Button.Ok" = "Ok";
+
+/* comment */
+"Button.Retry" = "Rééssayer";
+
+/* comment */
+"Button.Cancel" = "Annuler";
+
+/* comment */
+"RepoListViewController.Title" = "Liste des repositories";
+
+/* comment */
+"RepoListViewController.RepoTableViewCell.FullName" = "Nom: %@";
+
+/* comment */
+"RepoListViewController.RepoTableViewCell.Forks" = "Forks: %@";
+
+/* comment */
+"RepoListViewController.RepoTableViewCell.OpenIssues" = "Questions ouvertes: %@";
+
+/* comment */
+"RepoListViewController.RepoTableViewCell.Watchers" = "Observateurs: %@";
+
+/* comment */
+"RepoListViewController.PlaceholderTableViewCell.Label" = "Pas de Repos trouvés";
+
+/* comment */
+"RepoDetailViewController.FullName" = "Nom: %@";
+
+/* comment */
+"RepoDetailViewController.Description" = "Desription: %@";
+

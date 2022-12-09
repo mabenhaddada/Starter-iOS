@@ -17,6 +17,11 @@ internal enum Scenes {
 
     internal static let initialScene = InitialSceneType<UIKit.UIViewController>(storyboard: Self.self)
   }
+  internal enum RepoDetail: StoryboardType {
+    internal static let storyboardName = "RepoDetail"
+
+    internal static let initialScene = InitialSceneType<RepoDetailViewController>(storyboard: Self.self)
+  }
   internal enum RepoList: StoryboardType {
     internal static let storyboardName = "RepoList"
 

@@ -9,13 +9,17 @@ target 'Starter' do
   
   pod 'SwiftGen', '~> 6.0'
   
-  pod "RxSwift"
+  pod 'Reusable'
   
-  pod "RxCocoa"
+  pod 'RxSwift'
+  
+  pod 'RxCocoa'
   
   pod 'GRDB.swift'
 
   pod 'RxGRDB'
+  
+  pod 'Alamofire'
   
   target 'StarterTests' do
     inherit! :search_paths
