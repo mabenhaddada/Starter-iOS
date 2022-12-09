@@ -39,8 +39,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // FileSystem
         setupFileSystem()
         
+        // Persisitence
         let persistence = setupPersistence()
         Current.persistence = { persistence }
+        
+        // API
+        let apiService = setupAPI()
+        Current.apiService = { apiService }
     }
     
     private func setupFileSystem() {
@@ -65,6 +70,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         } catch {
             preconditionFailure(String(describing: error))
         }
+    }
+    
+    private func setupAPI() -> APIServiceProtocol {
+        APIService()
     }
 }
 
