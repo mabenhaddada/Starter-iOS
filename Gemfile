@@ -1,3 +1,5 @@
 source "https://rubygems.org"
 
-gem "cocoapods"
+gem 'json', '~> 2.6.3'
+
+gem 'cocoapods'
