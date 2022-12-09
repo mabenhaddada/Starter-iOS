@@ -25,7 +25,6 @@
 		D2C224F22942967400A65058 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C224E42942967400A65058 /* Persistence.swift */; };
 		D2C224F32942967400A65058 /* SchemaV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C224E52942967400A65058 /* SchemaV1.swift */; };
 		D2C224F42942967400A65058 /* APIServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C224E72942967400A65058 /* APIServiceProtocol.swift */; };
-		D2C224F52942967400A65058 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C224E92942967400A65058 /* Strings.swift */; };
 		D2C224F62942967400A65058 /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C224EA2942967400A65058 /* Assets.swift */; };
 		D2C224F72942967400A65058 /* L10n.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C224EB2942967400A65058 /* L10n.swift */; };
 		D2C224F82942967400A65058 /* Scenes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C224EC2942967400A65058 /* Scenes.swift */; };
@@ -94,7 +93,6 @@
 		D2C224E42942967400A65058 /* Persistence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		D2C224E52942967400A65058 /* SchemaV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchemaV1.swift; sourceTree = "<group>"; };
 		D2C224E72942967400A65058 /* APIServiceProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIServiceProtocol.swift; sourceTree = "<group>"; };
-		D2C224E92942967400A65058 /* Strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
 		D2C224EA2942967400A65058 /* Assets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
 		D2C224EB2942967400A65058 /* L10n.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = L10n.swift; sourceTree = "<group>"; };
 		D2C224EC2942967400A65058 /* Scenes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scenes.swift; sourceTree = "<group>"; };
@@ -266,7 +264,6 @@
 		D2C224E82942967400A65058 /* Generated */ = {
 			isa = PBXGroup;
 			children = (
-				D2C224E92942967400A65058 /* Strings.swift */,
 				D2C224EA2942967400A65058 /* Assets.swift */,
 				D2C224EB2942967400A65058 /* L10n.swift */,
 				D2C224EC2942967400A65058 /* Scenes.swift */,
@@ -742,7 +739,6 @@
 				D2C225242942AD9800A65058 /* APIService.swift in Sources */,
 				D26B8E422942D8CF00F499C7 /* OnlyLatestDisposable.swift in Sources */,
 				D2F1B6E32942DF730023D3B4 /* RepoDetail.swift in Sources */,
-				D2C224F52942967400A65058 /* Strings.swift in Sources */,
 				D26B8E382942C40B00F499C7 /* RepoTableViewCell.swift in Sources */,
 				D2F1B6E52942DF8F0023D3B4 /* RepoDetailViewController.swift in Sources */,
 				D2C2251729429E8200A65058 /* FlowedViewController.swift in Sources */,
