@@ -43,7 +43,6 @@
 		D2C225282942B19D00A65058 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C225272942B19D00A65058 /* API.swift */; };
 		D2D46CEB293E2DB00036A2CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D46CEA293E2DB00036A2CC /* AppDelegate.swift */; };
 		D2D46CED293E2DB00036A2CC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D46CEC293E2DB00036A2CC /* SceneDelegate.swift */; };
-		D2D46CEF293E2DB00036A2CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D46CEE293E2DB00036A2CC /* ViewController.swift */; };
 		D2D46D02293E2DB30036A2CC /* StarterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D46D01293E2DB30036A2CC /* StarterTests.swift */; };
 		D2D46D0C293E2DB30036A2CC /* StarterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D46D0B293E2DB30036A2CC /* StarterUITests.swift */; };
 		D2D46D0E293E2DB30036A2CC /* StarterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D46D0D293E2DB30036A2CC /* StarterUITestsLaunchTests.swift */; };
@@ -114,7 +113,6 @@
 		D2D46CE7293E2DB00036A2CC /* Starter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Starter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2D46CEA293E2DB00036A2CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D2D46CEC293E2DB00036A2CC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D2D46CEE293E2DB00036A2CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D2D46CF8293E2DB20036A2CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D2D46CFD293E2DB30036A2CC /* StarterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2D46D01293E2DB30036A2CC /* StarterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarterTests.swift; sourceTree = "<group>"; };
@@ -361,7 +359,6 @@
 				D2D46CF8293E2DB20036A2CC /* Info.plist */,
 				D2D46CEA293E2DB00036A2CC /* AppDelegate.swift */,
 				D2D46CEC293E2DB00036A2CC /* SceneDelegate.swift */,
-				D2D46CEE293E2DB00036A2CC /* ViewController.swift */,
 				D2C224ED2942967400A65058 /* AppUtils */,
 				D2C224E82942967400A65058 /* Generated */,
 				D2C224EF2942967400A65058 /* Models */,
@@ -735,7 +732,6 @@
 			files = (
 				D2C225282942B19D00A65058 /* API.swift in Sources */,
 				D2C225262942AE9800A65058 /* NetworkLogger.swift in Sources */,
-				D2D46CEF293E2DB00036A2CC /* ViewController.swift in Sources */,
 				D2C225202942A12A00A65058 /* RepoList.swift in Sources */,
 				D2C224F42942967400A65058 /* APIServiceProtocol.swift in Sources */,
 				D2C225222942A20200A65058 /* RepoListFlowController.swift in Sources */,
