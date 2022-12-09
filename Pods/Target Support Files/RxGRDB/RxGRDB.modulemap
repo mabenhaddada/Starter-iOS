@@ -1,6 +1,0 @@
-framework module RxGRDB {
-  umbrella header "RxGRDB-umbrella.h"
-
-  export *
-  module * { export * }
-}
