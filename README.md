@@ -2,4 +2,4 @@
 
 Install dependencies
 
-run `bundler exec pod install`
+run `bundle exec pod install`
