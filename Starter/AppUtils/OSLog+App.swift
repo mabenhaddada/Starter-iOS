@@ -1,6 +1,6 @@
 //
 //  OSLog+App.swift
-//  JetBrain
+//  Starter
 //
 //  Created by Mohamed Amine BEN HADDADA on 07/12/2022.
 //
